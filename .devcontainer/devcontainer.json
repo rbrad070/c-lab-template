@@ -1,0 +1,27 @@
+{
+  "name": "C Programming Environment",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+      ],
+      "settings": {
+        "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+        "github.copilot.enable": { "*": false },
+        "editor.inlineSuggest.enabled": false,
+        "editor.quickSuggestions": {
+          "other": false,
+          "comments": false,
+          "strings": false
+        },
+        "editor.parameterHints.enabled": false,
+        "editor.suggestOnTriggerCharacters": false
+      }
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y valgrind",
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
