@@ -10,6 +10,7 @@
       "settings": {
         "C_Cpp.default.compilerPath": "/usr/bin/gcc",
         "github.copilot.enable": { "*": false },
+        "chat.disableAIFeatures": true,
         "editor.inlineSuggest.enabled": false,
         "editor.quickSuggestions": {
           "other": false,
