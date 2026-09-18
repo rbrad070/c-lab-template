@@ -164,4 +164,3 @@ This means:
 **Do not edit or delete `.gitignore`.** Without it, every program you compile gets added to your commits.
 
 > Files whose names start with a dot, like `.gitignore` and `.devcontainer`, are *hidden* files. They're normal, and they show up in the Codespace Explorer. `ls` doesn't show them, but `ls -a` does.
-
